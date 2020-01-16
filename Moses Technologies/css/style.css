@@ -1,0 +1,398 @@
+html,body{
+  scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,span,a,li,ul,ol,input,label,b,strong,body{
+	font-family: 'Raleway', sans-serif;
+}
+.clear{
+    clear: both;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: #1d1d1b;
+    letter-spacing: 1.2px;
+}
+h2 {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #06070d;
+    letter-spacing: 1.2px;
+}
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.1;
+    letter-spacing: 0.8px;
+    color: rgba(0, 0, 0, 0.32);
+    letter-spacing: 1.2px;
+}
+h4 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #1d1d1b;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #1d1d1b;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+a {
+    text-decoration: unset !important;
+    text-decoration-line: unset !important;
+    color: #000;
+}
+img {
+    max-width: 100%;
+}
+iframe {
+    width: 100%;
+}
+.bold{
+	font-weight: 900;
+}
+.blue{
+   color: #f7505a;
+}
+.our-projects .row {
+    background-color: rgba(17, 36, 50, 0.9);
+}
+.row {
+    margin: 0px;
+}
+.padding0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.container-fluid {
+    padding: 0;
+}
+.mp00 {
+    margin: 0;
+    padding: 0;
+}
+.single-project {
+    width: 100%;
+}
+.project-content {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.project-content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.fadeIn-top {
+    top: 20%;
+}
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+.content-details p {
+    color: #fff;
+    font-size: 14px;
+}
+.project-content:hover .content-overlay {
+    opacity: 1;
+}
+.project-content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+nav.navbar a img {
+    width: 60px;
+}
+header.header {
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 999;
+    width: 100%;
+    border-bottom: 6px solid #f7505a;
+}
+a.nav-link {
+    font-weight: bold;
+}
+li.nav-item:hover a {
+    color: #f7505a;
+}
+.mobile-nav{
+	display: none;
+}
+.main {
+    position: relative;
+    margin-bottom: 60px;
+}
+.position-ab {
+    position: absolute;
+    color: #fff;
+    right: 14%;
+    top: 36%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+}
+.position-ab h2,.position-ab p{
+	color: #fff
+}
+.our-projects h2 {
+    text-align: center;
+  }
+  .p-top{
+  	margin-top: 60px;
+  }
+hr{
+	border-top: 4px solid #f7505a;
+    width: 130px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.about-us {
+    margin-top: 80px;
+}
+h2.aboutHeading {
+    padding-bottom: 30px;
+}
+img.wid100.computerimg {
+    padding-top: 30px;
+}
+#about {
+    background-image: url(../images/About.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 100%;
+}
+#contact{
+	background-image: url(../images/contact-us-form-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.headingwhite {
+    color: white;
+    font-size: 60px;
+}
+.ptext {
+    text-align: center;
+    color: white;
+}
+.copyRight {
+    color: #83888b;
+    text-align: center;
+    font-size: 14px;
+}
+.formup {
+    max-width: 60%;
+    margin: 0 auto;
+}
+.iconsin {
+    padding-top: 70px;
+    color: white;
+    max-width: 60%;
+    margin: 0 auto;
+}
+.contactfield {
+    width: 100%;
+    padding: 13px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    margin: 3px;
+}
+.contactfieldarea {
+    resize: none;
+    width: 100%;
+    padding: 13px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    margin: 3px;
+    height: 400px;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+.submit {
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 200px;
+    border: transparent;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    outline: none;
+}
+.submit:hover{
+    color: #fff;
+    background-color: #f7505a;
+}
+.singleicon {
+    font-size: 25px;
+    border: 2px solid white;
+    text-align: center;
+    padding: 5px 0px;
+    width: 50px;
+    margin-bottom: 10px;
+    float: right;
+}
+.todown {
+    margin: 0 auto;
+    text-align: center;
+}
+.wid60px {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.inlineb {
+    display: inline-block;
+}
+.iconsLinks {
+    color: #fff;
+}
+.footerIcons {
+    padding: 4px 0 0;
+    border: 2px solid #f7505a;
+    border-radius: 3px;
+}
+.footerSocialIcons {
+    color: transparent;
+    -webkit-text-stroke: 2px #f7505a;
+    font-size: 40px;
+}
+.lights:hover {
+    text-shadow: 1px 1px 1px #999, 3px 2px 4px #f7505a;
+}
+.iconsLinks:hover {
+    color: #000;
+}
+.iconsLinks:hover div {
+    background-color: #fff;
+}
+.iconsin p,.iconsin a {
+    color: #fff;
+}
+.contactin {
+    padding: 100px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    background: linear-gradient(to right, #e72a3a 10%, #fff 50%, #5bdaff 60%);
+    background-size: 200% auto;
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px){
+	.formup {
+    padding: 20px;
+}
+.copyRight {
+    margin-top: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
